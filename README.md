@@ -1,1 +1,1 @@
-# atrium-note
+# AtriumNote
