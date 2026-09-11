@@ -1,0 +1,15 @@
+- 2026-08-01: Refine Log Rules [MB] <!!>
+- Content: 补充并整理 .log 的使用约定，明确 `[MB]` 表示该条记录生成于本机 Huawei MateBook，`<!!>` 表示该条记录已推送到仓库且由手动维护；同时约定日志更新按日期合并处理，同一天的修改直接写入当天记录，跨天更新则新增一条记录，便于后续持续整理与追踪
+
+- 2026-07-22: Add Education Workspace [MB] <!!>
+- Content: 将原 `study_abroad` 分区调整为更长期的 `education` 分区，用于贯穿整个学习与工作生涯维护语言能力、专业课程能力与阶段性深造目标；同时把留学申请下沉为 `education/study_abroad` 子主题，并同步更新 README、TODO 与仓库分区说明
+
+- 2026-07-09: Update UTF-8 Save [MB] <!!>
+- Content: 调整 gitpush.bat 回写 .log 的保存方式，改为显式使用 UTF-8 编码写入文件，确保追加推送标记后日志中的中文内容能够以统一编码方式保存，减少后续整理与查看时出现编码不一致的问题
+
+- 2026-07-09: Initialize Repo Docs And Push Workflow <!!>
+- Content: 完成 README 基础说明整理，明确仓库用于归档个人笔记、技术杂记、配置记录与后续轻量工具内容；建立 .log 的记录模板与使用约定；同步完善 gitpush.bat，使其能够读取最新日志标题作为 commit message，并在推送成功后为对应记录追加标记
+
+---------- Template ---------- 
+- yyyy-mm-dd: Log Title (EN)
+- Content: xxxxxxxxxx (CN)

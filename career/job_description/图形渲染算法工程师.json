@@ -1,0 +1,158 @@
+{
+  "title": "图形渲染算法工程师",
+  "aliases": [
+    "游戏引擎渲染工程师",
+    "图形渲染资深工程师",
+    "图形算法高级工程师",
+    "AI渲染工程师"
+  ],
+  "positioning": "以实时渲染、游戏引擎、GPU性能优化和图形算法工程化落地为核心，能够完成从图形学理论、论文复现、渲染架构设计到产品级性能优化的高级图形工程岗位。",
+  "source_roles": [
+    "Technology Platform-游戏引擎研发工程师-(渲染效果)",
+    "图形渲染资深工程师-UE方向",
+    "游戏引擎开发资深工程师-AI渲染",
+    "光子艺术部-技术美术-(程序向)",
+    "引擎组开发技术美术",
+    "Project T UE5 高级引擎开发",
+    "图形算法高级工程师"
+  ],
+  "career_directions": [
+    {
+      "name": "引擎渲染方向",
+      "focus": [
+        "UE4/UE5 或自研引擎渲染架构开发",
+        "渲染管线扩展、RHI层理解、底层源码定制",
+        "高品质画面效果实现与性能优化"
+      ]
+    },
+    {
+      "name": "图形算法方向",
+      "focus": [
+        "全局光照、光线追踪、后处理、材质与着色",
+        "Lightmap 烘焙、探针、AO、反射、体积光等核心算法",
+        "论文复现到工程化落地"
+      ]
+    },
+    {
+      "name": "GPU优化方向",
+      "focus": [
+        "PC/Mobile GPU 性能分析与瓶颈定位",
+        "RenderDoc、Nsight、PIX、Arm Graphics Analyzer 等工具使用",
+        "帧率、显存、带宽、Shader复杂度优化"
+      ]
+    },
+    {
+      "name": "AI渲染方向",
+      "focus": [
+        "DLSS、帧生成、神经材质、AI驱动光照",
+        "AI资产工具工程化集成",
+        "神经渲染与传统渲染融合"
+      ]
+    }
+  ],
+  "main_skills": {
+    "programming": [
+      "C++",
+      "C#",
+      "Python",
+      "Lua",
+      "工程级代码设计与调试能力"
+    ],
+    "graphics_theory": [
+      "线性代数、矩阵与坐标变换",
+      "几何与空间数据结构",
+      "辐射度量学与BRDF",
+      "蒙特卡洛积分",
+      "球谐函数",
+      "全局光照理论"
+    ],
+    "gpu_and_api": [
+      "OpenGL / OpenGL ES",
+      "Vulkan",
+      "DirectX 12 / DXR",
+      "Metal",
+      "GPU并行计算与GPU架构理解"
+    ],
+    "shader_and_pipeline": [
+      "HLSL",
+      "GLSL",
+      "材质系统",
+      "后处理流程",
+      "渲染管线设计与重构",
+      "传统渲染后端与RTX后端协同"
+    ],
+    "engine_and_tools": [
+      "Unreal Engine 4/5",
+      "Unity",
+      "商业引擎源码阅读与改造",
+      "插件开发",
+      "DCC与引擎工具链开发",
+      "自动化美术管线"
+    ],
+    "advanced_rendering": [
+      "Path Tracing",
+      "Radiosity",
+      "Light Probe",
+      "Lightmap 烘焙",
+      "Lumen",
+      "DDGI",
+      "ReSTIR",
+      "Surfel GI",
+      "光线追踪反射/阴影/GI",
+      "体积光",
+      "AO",
+      "反射探针"
+    ],
+    "performance_and_debugging": [
+      "RenderDoc",
+      "Nsight Graphics",
+      "PIX",
+      "AMD GPA",
+      "Arm Graphics Analyzer",
+      "systrace",
+      "simpleperf",
+      "DrawCall / Shader / 内存 / 带宽优化"
+    ],
+    "ai_rendering": [
+      "DLSS",
+      "Frame Generation",
+      "Neural Materials",
+      "NeRF",
+      "Neural Texture Compression",
+      "Real-ESRGAN",
+      "PyTorch / TensorFlow 工程化应用"
+    ],
+    "engineering": [
+      "CMake",
+      "Git",
+      "跨平台开发",
+      "性能分析方法论",
+      "论文调研与复现",
+      "技术文档与跨团队协作"
+    ]
+  },
+  "work_content_directions": [
+    "设计与实现实时渲染和离线烘焙系统，如GI、Lightmap、探针、阴影与体积效果。",
+    "基于UE、自研引擎或图形API完成渲染架构开发、扩展与性能优化。",
+    "实现高品质渲染效果，包括后处理、材质、反射、AO、体积光与光追效果。",
+    "完成论文或原型到产品功能的转化，包括验证、适配、调优和上线。",
+    "针对PC、主机、移动端或云游戏场景进行GPU性能分析和兼容性处理。",
+    "构建图形相关工具链与美术工作流，提高团队生产效率。",
+    "将AI能力接入渲染系统或资产流程，提升视觉质量与研发效率。"
+  ],
+  "must_have_capabilities": [
+    "能独立阅读并改造引擎源码或核心渲染模块。",
+    "能从图形学理论推导到工程实现，完成算法设计、编码、调试和优化。",
+    "能使用GPU分析工具定位瓶颈并给出可量化的优化方案。",
+    "能将论文方案做工程适配，而不是停留在Demo级复现。",
+    "能在美术、TA、引擎、工具链等多角色协作环境下推进交付。"
+  ],
+  "recommended_milestone_projects": [
+    "基于OpenGL/Vulkan实现一个可扩展的PBR实时渲染器。",
+    "实现一个可切换的后处理框架，支持Bloom、TAA、Tone Mapping、Color Grading。",
+    "实现一个基础GI方案，如Probe GI、DDGI、Voxel GI或简化ReSTIR GI实验。",
+    "基于UE5完成一个渲染模块扩展或源码级优化项目。",
+    "完成一次GPU性能分析案例，形成系统的瓶颈定位与优化报告。",
+    "完成一个AI渲染或AI资产处理工程集成项目。"
+  ]
+}
