@@ -1,0 +1,22 @@
+{
+    "title": "PostProcessingTA",
+    "time": "2024-12-10 - 2026-07-27",
+    "skills": [
+        "OpenGL",
+        "计算机图形学",
+        "GPU",
+        "图形开发/渲染",
+        "图形开发经验",
+        "GLSL",
+        "js",
+        "lua"
+    ],
+    "description": {
+        "requirement": [
+            "GLSL后处理shader开发能力"
+        ],
+        "duty": [
+            "根据美术需要，开发后处理shader，制作滤镜、特效等"
+        ]
+    }
+}
